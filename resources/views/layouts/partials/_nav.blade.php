@@ -12,8 +12,8 @@
 
 		<div class="collapse navbar-collapse" id="example-navbar">
 			<ul class="nav navbar-nav">
-				<li><a href="{{ route('root_path') }}">Home</a></li>
-				<li><a href="{{ route('about_path') }}">About</a></li>
+				<li class="{{ set_active_route('root_path') }}"><a href="{{ route('root_path') }}">Home</a></li>
+				<li class="{{ set_active_route('about_path') }}"><a href="{{ route('about_path') }}">About</a></li>
 				<li><a href="#">Artisans</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle btn" data-toggle="dropdown">Planet <b class="caret"></b>
