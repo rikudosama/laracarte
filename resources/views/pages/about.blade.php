@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default', ['title'=>'about'])
 @section('content')
 <div class="container">
 	<h2>What is laracarte ?</h2>
