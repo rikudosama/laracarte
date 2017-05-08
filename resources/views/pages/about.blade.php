@@ -8,7 +8,7 @@
 	<div class="row">
 		<div class="col-md-6">
 			<p class="alert alert-warning">
-			<strong><i class="fa fa-exclamation-triangle"></i> This app has been biult by <a href="https://twitter.com/lerikudosam">@lerikdudosama</a> for learning purpose</strong>
+			<strong><i class="fa fa-exclamation-triangle"></i> This app has been biult by <a href="https://twitter.com/lerikdudosama">@lerikdudosama</a> for learning purpose</strong>
 			</p>
 		</div>
 	</div>

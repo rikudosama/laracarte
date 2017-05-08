@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="{{ route('root_path') }}">{{ config('app.name') }}</a>
+			<a class="navbar-brand" href="{{ route('root_path') }}"><i class="fa fa-map-marker" style="color: red;"></i> {{ config('app.name') }}</a>
 		</div>
 
 		<div class="collapse navbar-collapse" id="example-navbar">
