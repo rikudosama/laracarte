@@ -19,7 +19,7 @@ Route::get('/', [
 	]);
 
 Route::get('/test-email', function(){
-	return new ContactMessageCreated;
+	return new ContactMessageCreated('Lengam', 'lengam@live.fr', 'Je suis content de vous connaitre enfin markdown');
 });
 
 Route::get('/about', [
