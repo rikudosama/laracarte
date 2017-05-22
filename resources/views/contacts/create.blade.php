@@ -4,7 +4,7 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
 			<h2>Get In Touch</h2>
-			<p class="text-muted">If you having trouble with this service, <a href="mailto:bjean633@gmail.com">please ask for help</a></p>
+			<p class="text-muted">If you having trouble with this service, <a href="mailto:{{config('laracarte.admin_support_email')}}">please ask for help</a></p>
 
 			<form action="{{ route('contact_path') }}" method="POST">
 				{{csrf_field()}}
