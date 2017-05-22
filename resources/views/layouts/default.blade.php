@@ -23,5 +23,6 @@
 	@include('layouts.partials._footer')
 	<script src="{{asset('/js/jquery.js')}}"></script>
 	<script src="{{asset('/js/bootstrap.min.js')}}"></script>
+	@include('flashy::message')
 </body>
 </html>

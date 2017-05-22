@@ -22,6 +22,8 @@ class ContactsController extends Controller
     	$mailable = new ContactMessageCreated($request->name, $request->email, $request->message);
     	Mail::to('admin@laracarte.com')->send($mailable);
 
-    	return 'done !';	
+    	flashy('Nous vous repondrons dans les plus brefs delais');
+
+        return redirect()->route('root_path');
     }
 }

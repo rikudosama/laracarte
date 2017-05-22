@@ -1,6 +1,6 @@
 <style>
 .flashy {
-    font-family: Arial, sans-serif;
+    font-family: "Open Sans",Arial, sans-serif;
     padding: 11px 30px;
     border-radius: 4px;
     font-weight: 400;
