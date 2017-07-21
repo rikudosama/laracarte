@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
 	<style>
 		body{
 			font-family: Helvetica, Arial, sans-serif;
